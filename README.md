@@ -40,6 +40,8 @@ Columns - ingredients, picture_link, instructions, title
 
 Since the datasets and model outputs are huge (of the size greater than 2.5GB), they are stored in the Google Drive at the following link, https://drive.google.com/drive/folders/1uXVtDFUxLQxarNXNXLFloE5wnnUKMB8F?usp=sharing
 
+Previously we were using a different repository, where we tried pushing files over 100MB, and starting getting errors while pushing the code, and hence we had to create a new repository and move the code here.
+
 ## Execution Procedure
 
 - If you wish to run the code, in order to train the custom Named Entity Recognition model, use the following command. Replace python with python3 if using python throws an error. This will create a folder named "output" at the root folder.
